@@ -1,0 +1,5 @@
+git checkout -b $1
+echo "adfa" >> a.html
+git add a.html
+git commit -m 'in com'
+git push --set-upstream origin $1
